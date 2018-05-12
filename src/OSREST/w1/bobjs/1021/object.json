@@ -1,0 +1,30 @@
+{
+	"ident": 1021,
+	"order": 16386,
+	"objtype": "kText",
+	"properties": {
+		"align": "kLeftJst",
+		"backcolor": "kColorBackFill",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 76,
+		"left": 7,
+		"objlink": 0,
+		"text": {
+			"type": 14,
+			"calc": "Beispiel-Library zur Nutzung von Omnis als RESTFull Server und Client\r\r- die Server Methoden befinden sich im RemoteTask \"restserver\"\r- die Server Methoden können folgendermaßen angestoßen/getestet werden:"
+		},
+		"textcolor": "kColorWindowText",
+		"top": 9,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 654
+	}
+}

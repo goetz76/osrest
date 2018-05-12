@@ -1,0 +1,4 @@
+Breakpoint
+Do $cinst.$sethttpstatus(200,'OK')
+Calculate reponse as 'Omnis POST'
+Quit method reponse

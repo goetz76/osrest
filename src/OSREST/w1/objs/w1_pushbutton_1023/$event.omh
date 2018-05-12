@@ -1,0 +1,7 @@
+On evClick     ;; Event Parameters - pRow( Itemreference )
+	;  Aufruf via OmnisRestCGI, welches sich im entsprechenden Verzeichnis des Webservers befindet
+	Do lHeaders.$define(headerType,headerValue)
+	Breakpoint {IP und Port anpassen}
+	Do lHeaders.$add('omnis-server','192.168.0.82:5912')     ;; Die IP/Port des Omnis Servers muss als Custom-Header𯿿 spezifiziert werden
+	Do iWorkerObj.$init('http://192.168.0.56/cgi-bin/nph-omnisrestcgi/api/osrest/myrestapi/data',kOWEBhttpMethodPost,lHeaders,'test') Returns ok     ;; Adresse des OmnisRestCGIs/api/Libraryname/$restfulapiname/URI
+	Do iWorkerObj.$start() Returns ok

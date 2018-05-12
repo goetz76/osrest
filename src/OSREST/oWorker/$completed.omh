@@ -1,0 +1,3 @@
+Calculate binResponse as pResult.1.responseContent
+Do uniconv(kUniTypeAuto,binResponse,kUniTypeCharacter,charResponse,kFalse,'failed')
+Breakpoint {charResponse}

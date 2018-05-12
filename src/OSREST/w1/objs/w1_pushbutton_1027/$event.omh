@@ -1,0 +1,5 @@
+On evClick     ;; Event Parameters - pRow( Itemreference )
+	Do lHeaders.$define(headerType,headerValue)
+	Do lHeaders.$add('omnis-server','127.0.0.1:5912')     ;; Die IP/Port des Omnis Servers muss als Custom-Header𯿿 spezifiziert werden
+	Do iWorkerObj.$init('http://127.0.0.1:5912/api/osrest/myrestapi/data',kOWEBhttpMethodPost,lHeaders,'test') Returns ok     ;; IP:Port des Omnis Servers/api/Libraryname/$restfulapiname/URI
+	Do iWorkerObj.$start() Returns ok

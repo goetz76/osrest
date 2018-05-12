@@ -1,0 +1,30 @@
+{
+	"ident": 1020,
+	"order": 16385,
+	"objtype": "kText",
+	"properties": {
+		"align": "kLeftJst",
+		"backcolor": "kColorBackFill",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 154,
+		"left": 8,
+		"objlink": 0,
+		"text": {
+			"type": 14,
+			"calc": "Bei Nutzung des Built-In Webservers von Omnis, kann die Funktionalität direkt im Browser getestet werden:\r\rhttp://127.0.0.1:5965/api/osrest/myrestapi/data <---(IP:Port des Omnis Servers/api/Libraryname/$restfulapiname/URI\r\rBei Nutzung des Omnis Restful Plugins, kann Funktionalität ebenfalls im Browser getestet werden (Omnis in Firewalleinstellungen zulassen):\r\rhttp://192.168.0.56/cgi-bin/nph-omnisrestcgi/ws/192.168.0.82_5965/api/osrest/myrestapi/data <---(IP und Pfad zum Omnis Restful Plugin/ws/IP_Port OmnisServer/api/Libraryname/$restfulapiname/URI\r"
+		},
+		"textcolor": "kColorWindowText",
+		"top": 85,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 837
+	}
+}
